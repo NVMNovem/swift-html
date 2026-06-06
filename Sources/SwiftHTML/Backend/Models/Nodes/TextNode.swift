@@ -13,7 +13,7 @@ public struct TextNode: HTMLNode {
         self.value = value
     }
     
-    public func render(into stream: HTMLOutputStream) {
-        stream.writeEscaped(value)
+    public func render(using renderer: HTMLRenderer) {
+        renderer.writeEscaped(value)
     }
 }

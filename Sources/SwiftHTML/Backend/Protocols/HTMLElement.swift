@@ -17,4 +17,24 @@ public extension HTMLElement {
     var attributes: [String: String] {
         [:]
     }
+    
+    func renderOpeningTag(
+        using renderer: HTMLRenderer
+    ) {
+        renderer.write("<")
+        renderer.write(tag)
+        
+        for key in attributes.keys.sorted() {
+            guard let value = attributes[key] else {
+                continue
+            }
+            
+            renderer.write(" ")
+            renderer.write(key)
+            renderer.write("=")
+            renderer.writeDoubleQuoted(value)
+        }
+        
+        renderer.write(">")
+    }
 }

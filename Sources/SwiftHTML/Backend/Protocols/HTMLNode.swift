@@ -6,15 +6,23 @@
 //
 
 public protocol HTMLNode {
-
-    func render(into stream: HTMLOutputStream)
+    
+    func render(using renderer: HTMLRenderer)
 }
 
 public extension HTMLNode {
     
-    func render() -> String {
-        let stream = HTMLStringOutputStream()
-        render(into: stream)
-        return stream.output
+    func render(
+        options: HTMLRenderOptions = .init()
+    ) -> String {
+        HTMLRenderer(options: options).render(self)
+    }
+    
+    func render(prettyPrinted: Bool) -> String {
+        render(
+            options: HTMLRenderOptions(
+                prettyPrinted: prettyPrinted
+            )
+        )
     }
 }
