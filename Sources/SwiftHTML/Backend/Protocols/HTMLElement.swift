@@ -9,13 +9,13 @@ public protocol HTMLElement: HTMLNode {
 
     var tag: String { get }
 
-    var attributes: [String: String] { get }
+    var attributes: [Attribute] { get }
 }
 
 public extension HTMLElement {
 
-    var attributes: [String: String] {
-        [:]
+    var attributes: [Attribute] {
+        []
     }
     
     func renderOpeningTag(
@@ -24,15 +24,11 @@ public extension HTMLElement {
         renderer.write("<")
         renderer.write(tag)
         
-        for key in attributes.keys.sorted() {
-            guard let value = attributes[key] else {
-                continue
-            }
-            
+        for attribute in attributes {
             renderer.write(" ")
-            renderer.write(key)
+            renderer.write(attribute.key)
             renderer.write("=")
-            renderer.writeDoubleQuoted(value)
+            renderer.writeDoubleQuoted(attribute.value)
         }
         
         renderer.write(">")

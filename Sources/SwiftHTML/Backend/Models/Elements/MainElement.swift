@@ -1,13 +1,13 @@
 //
-//  H3.swift
+//  MainElement.swift
 //  swift-html
 //
-//  Created by Damian Van de Kauter on 04/06/2026.
+//  Created by Damian Van de Kauter on 06/06/2026.
 //
 
-public struct H3: ContainerElement {
+public struct Main: ContainerElement {
 
-    public let tag = "h3"
+    public let tag = "main"
     public let attributes: [Attribute]
     public let children: [any HTMLNode]
 

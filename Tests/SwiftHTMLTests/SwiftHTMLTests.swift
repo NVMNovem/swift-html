@@ -122,7 +122,7 @@ func rendersHeadings() async throws {
 
 @Test
 func rendersAnchorWithHref() async throws {
-    let a = A(href: "https://example.com?foo=bar&baz=qux") {
+    let a = A(.href("https://example.com?foo=bar&baz=qux")) {
         "Example"
     }
     
@@ -136,4 +136,86 @@ func rendersEmptyContainerElement() async throws {
     let div = Div {}
     
     #expect(div.render() == "<div></div>")
+}
+
+@Test
+func preservesAttributeInsertionOrder() async throws {
+    let div = Div(.id("hero"), .class("featured"), .ariaLabel("Intro")) {}
+    
+    #expect(div.render() == "<div id=\"hero\" class=\"featured\" aria-label=\"Intro\"></div>")
+}
+
+@Test
+func escapesAttributeValues() async throws {
+    let a = A(.href("https://example.com?name=<Swift>&quote=\"yes\"")) {
+        "Example"
+    }
+    
+    #expect(
+        a.render() == "<a href=\"https://example.com?name=&lt;Swift&gt;&amp;quote=&quot;yes&quot;\">Example</a>"
+    )
+}
+
+@Test
+func rendersHTMLLangAttribute() async throws {
+    let html = HTML(.lang("en")) {}
+    
+    #expect(html.render() == "<html lang=\"en\"></html>")
+}
+
+@Test
+func rendersMetaCharsetAsVoidElement() async throws {
+    let meta = Meta(.charset("UTF-8"))
+    
+    #expect(meta.render() == "<meta charset=\"UTF-8\">")
+}
+
+@Test
+func rendersLinkStylesheetAsVoidElement() async throws {
+    let link = Link(.rel("stylesheet"), .href("style.css"))
+    
+    #expect(link.render() == "<link rel=\"stylesheet\" href=\"style.css\">")
+}
+
+@Test
+func rendersSemanticBodyElements() async throws {
+    let main = Main {
+        Section(.class("hero")) {
+            Article(.class("card")) {
+                H2 { "Backend" }
+                P { "Server-side Swift." }
+            }
+        }
+    }
+    
+    #expect(
+        main.render() == "<main><section class=\"hero\"><article class=\"card\"><h2>Backend</h2><p>Server-side Swift.</p></article></section></main>"
+    )
+}
+
+@Test
+func rendersHTMLDocumentWithDoctype() async throws {
+    let document = HTMLDocument {
+        HTML(.lang("en")) {
+            Head {
+                Title {
+                    "Damian Van de Kauter"
+                }
+            }
+            Body {}
+        }
+    }
+    
+    #expect(
+        document.render(prettyPrinted: true) ==
+        """
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <title>Damian Van de Kauter</title>
+            </head>
+            <body></body>
+        </html>
+        """
+    )
 }
