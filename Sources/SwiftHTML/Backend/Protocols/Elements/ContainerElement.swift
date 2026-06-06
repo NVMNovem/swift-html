@@ -6,35 +6,35 @@
 //
 
 public protocol ContainerElement: HTMLElement {
-
+    
     var children: [any HTMLNode] { get }
 }
 
 public extension ContainerElement {
     
-    func render(into stream: HTMLOutputStream) {
-        stream.write("<")
-        stream.write(tag)
-
-        for key in attributes.keys.sorted() {
-            guard let value = attributes[key] else {
-                continue
+    func render(using renderer: HTMLRenderer) {
+        renderOpeningTag(using: renderer)
+        
+        if renderer.shouldPrettyPrintChildren(children) {
+            renderer.increaseIndentation()
+            
+            for child in children {
+                renderer.writeLineBreak()
+                renderer.writeIndentation()
+                child.render(using: renderer)
             }
-
-            stream.write(" ")
-            stream.write(key)
-            stream.write("=")
-            stream.writeDoubleQuoted(value)
+            
+            renderer.decreaseIndentation()
+            renderer.writeLineBreak()
+            renderer.writeIndentation()
+        } else {
+            for child in children {
+                child.render(using: renderer)
+            }
         }
-
-        stream.write(">")
-
-        for child in children {
-            child.render(into: stream)
-        }
-
-        stream.write("</")
-        stream.write(tag)
-        stream.write(">")
+        
+        renderer.write("</")
+        renderer.write(tag)
+        renderer.write(">")
     }
 }

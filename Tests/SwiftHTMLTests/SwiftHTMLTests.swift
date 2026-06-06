@@ -33,6 +33,34 @@ func rendersNestedElements() async throws {
 }
 
 @Test
+func rendersCompactElementsWhenPrettyPrintingIsDisabled() async throws {
+    let div = Div {
+        H1 { "Title" }
+        P { "Text" }
+    }
+    
+    #expect(div.render(prettyPrinted: false) == "<div><h1>Title</h1><p>Text</p></div>")
+}
+
+@Test
+func rendersPrettyPrintedElements() async throws {
+    let div = Div {
+        H1 { "Title" }
+        P { "Text" }
+    }
+    
+    #expect(
+        div.render(prettyPrinted: true) ==
+        """
+        <div>
+            <h1>Title</h1>
+            <p>Text</p>
+        </div>
+        """
+    )
+}
+
+@Test
 func rendersFullHTMLDocument() async throws {
     let html = HTML {
         Head {
@@ -66,6 +94,19 @@ func rendersInlineElements() async throws {
     }
     
     #expect(p.render() == "<p>Hello <span>Swift</span> world</p>")
+}
+
+@Test
+func rendersMixedInlineContentCompactWhenPrettyPrinted() async throws {
+    let p = P {
+        "Hello "
+        Span {
+            "Swift"
+        }
+        " world"
+    }
+    
+    #expect(p.render(prettyPrinted: true) == "<p>Hello <span>Swift</span> world</p>")
 }
 
 @Test
