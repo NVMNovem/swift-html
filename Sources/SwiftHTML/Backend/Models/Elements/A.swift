@@ -8,24 +8,14 @@
 public struct A: ContainerElement {
     
     public let tag = "a"
-    public let href: String?
+    public let attributes: [Attribute]
     public let children: [any HTMLNode]
-
-    public var attributes: [String: String] {
-        guard let href else {
-            return [:]
-        }
-
-        return [
-            "href": href
-        ]
-    }
     
     public init(
-        href: String? = nil,
+        _ attributes: Attribute...,
         @HTMLBuilder children: () -> [any HTMLNode]
     ) {
-        self.href = href
+        self.attributes = attributes
         self.children = children()
     }
 }
