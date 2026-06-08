@@ -33,6 +33,14 @@ public extension Attribute {
         .init("href", value)
     }
 
+    static func src(_ value: String) -> Self {
+        .init("src", value)
+    }
+
+    static var `defer`: Self {
+        .init("defer", "")
+    }
+
     static func lang(_ value: String) -> Self {
         .init("lang", value)
     }
