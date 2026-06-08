@@ -178,6 +178,13 @@ func rendersLinkStylesheetAsVoidElement() async throws {
 }
 
 @Test
+func rendersScriptWithSourceAndDeferAttribute() async throws {
+    let script = Script(.src("app.js"), .defer)
+
+    #expect(script.render() == "<script src=\"app.js\" defer=\"\"></script>")
+}
+
+@Test
 func rendersSemanticBodyElements() async throws {
     let main = Main {
         Section(.class("hero")) {

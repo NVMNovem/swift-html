@@ -9,15 +9,6 @@ public final class HTMLRenderer {
     
     private let stream: HTMLOutputStream
     private var context: HTMLRenderContext
-
-    public convenience init(
-        options: HTMLRenderOptions = .init()
-    ) {
-        self.init(
-            stream: HTMLStringOutputStream(),
-            options: options
-        )
-    }
     
     public init(
         stream: HTMLOutputStream,
@@ -25,6 +16,15 @@ public final class HTMLRenderer {
     ) {
         self.stream = stream
         self.context = HTMLRenderContext(options: options)
+    }
+    
+    public convenience init(
+        options: HTMLRenderOptions = .init()
+    ) {
+        self.init(
+            stream: HTMLStringOutputStream(),
+            options: options
+        )
     }
     
     public func write(_ string: String) {
