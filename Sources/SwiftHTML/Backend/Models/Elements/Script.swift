@@ -12,7 +12,7 @@ public struct Script: ContainerElement {
     public let children: [any HTMLNode]
 
     public init(
-        _ attributes: Attribute...
+        _ attributes: [Attribute],
     ) {
         self.attributes = attributes
         self.children = []
@@ -20,6 +20,13 @@ public struct Script: ContainerElement {
 
     public init(
         _ attributes: Attribute...,
+    ) {
+        self.attributes = attributes
+        self.children = []
+    }
+
+    public init(
+        _ attributes: [Attribute],
         @HTMLBuilder children: () -> [any HTMLNode]
     ) {
         self.attributes = attributes

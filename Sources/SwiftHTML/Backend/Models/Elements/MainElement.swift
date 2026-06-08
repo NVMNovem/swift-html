@@ -12,7 +12,7 @@ public struct Main: ContainerElement {
     public let children: [any HTMLNode]
 
     public init(
-        _ attributes: Attribute...,
+        _ attributes: [Attribute],
         @HTMLBuilder children: () -> [any HTMLNode]
     ) {
         self.attributes = attributes
