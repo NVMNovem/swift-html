@@ -8,6 +8,21 @@
 public protocol ContainerElement: HTMLElement {
     
     var children: [any HTMLNode] { get }
+    
+    init(
+        _ attributes: [Attribute],
+        @HTMLBuilder children: () -> [any HTMLNode]
+    )
+}
+
+public extension ContainerElement {
+    
+    init(
+        _ attributes: Attribute...,
+        @HTMLBuilder children: () -> [any HTMLNode]
+    ) {
+        self.init(attributes, children: children)
+    }
 }
 
 public extension ContainerElement {
