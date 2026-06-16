@@ -9,6 +9,26 @@ func rendersTextEscaped() async throws {
 }
 
 @Test
+func rendersStringChildrenEscaped() async throws {
+    let div = Div {
+        "\"quoted\""
+    }
+
+    #expect(div.render() == "<div>&quot;quoted&quot;</div>")
+}
+
+@Test
+func rendersRawTextUnescaped() async throws {
+    let script = Script(Attribute("type", "application/ld+json")) {
+        RawText("""
+        {"@context":"https://schema.org"}
+        """)
+    }
+
+    #expect(script.render() == "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\"}</script>")
+}
+
+@Test
 func rendersSimpleElement() async throws {
     let div = Div {
         "Hello"

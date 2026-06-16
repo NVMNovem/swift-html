@@ -32,4 +32,12 @@ public struct Script: ContainerElement {
         self.attributes = attributes
         self.children = children()
     }
+
+    public init(
+        _ attributes: Attribute...,
+        @HTMLBuilder children: () -> [any HTMLNode]
+    ) {
+        self.attributes = attributes
+        self.children = children()
+    }
 }
