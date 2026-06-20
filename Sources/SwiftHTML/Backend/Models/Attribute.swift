@@ -37,6 +37,10 @@ public extension Attribute {
         .init("src", value)
     }
 
+    static func alt(_ value: String) -> Self {
+        .init("alt", value)
+    }
+
     static var `defer`: Self {
         .init("defer", "")
     }

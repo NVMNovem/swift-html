@@ -198,6 +198,46 @@ func rendersLinkStylesheetAsVoidElement() async throws {
 }
 
 @Test
+func rendersImgWithSource() async throws {
+    let img = Img(.src("assets/profile1.jpeg"))
+
+    #expect(img.render() == "<img src=\"assets/profile1.jpeg\">")
+}
+
+@Test
+func rendersImgWithSourceAndAlt() async throws {
+    let img = Img(
+        .src("assets/profile1.jpeg"),
+        .alt("Damian Van de Kauter")
+    )
+
+    #expect(img.render() == "<img src=\"assets/profile1.jpeg\" alt=\"Damian Van de Kauter\">")
+}
+
+@Test
+func rendersImgWithSourceAltAndClass() async throws {
+    let img = Img(
+        .src("assets/profile1.jpeg"),
+        .alt("Damian Van de Kauter"),
+        .class("profile-image")
+    )
+
+    #expect(
+        img.render() ==
+            "<img src=\"assets/profile1.jpeg\" alt=\"Damian Van de Kauter\" class=\"profile-image\">"
+    )
+}
+
+@Test
+func prettyPrintsImgWithoutClosingTag() async throws {
+    let img = Img(.src("assets/profile1.jpeg"))
+    let rendered = img.render(prettyPrinted: true)
+
+    #expect(rendered == "<img src=\"assets/profile1.jpeg\">")
+    #expect(!rendered.contains("</img>"))
+}
+
+@Test
 func rendersScriptWithSourceAndDeferAttribute() async throws {
     let script = Script(.src("app.js"), .defer)
 
