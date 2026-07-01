@@ -261,6 +261,65 @@ func rendersSemanticBodyElements() async throws {
 }
 
 @Test
+func rendersFormElementWithAttributes() async throws {
+    let form = Form(.class("contact-form"), Attribute("method", "post")) {}
+
+    #expect(form.render() == "<form class=\"contact-form\" method=\"post\"></form>")
+}
+
+@Test
+func rendersLabelElementWithAttributes() async throws {
+    let label = Label(Attribute("for", "name")) {
+        "Naam"
+    }
+
+    #expect(label.render() == "<label for=\"name\">Naam</label>")
+}
+
+@Test
+func rendersInputAsVoidElementWithAttributes() async throws {
+    let input = Input(Attribute("type", "text"), .id("name"))
+    let rendered = input.render()
+
+    #expect(rendered == "<input type=\"text\" id=\"name\">")
+    #expect(!rendered.contains("</input>"))
+}
+
+@Test
+func rendersTextAreaAsContainerElementWithAttributes() async throws {
+    let textArea = TextArea(.id("message")) {
+        ""
+    }
+    let rendered = textArea.render()
+
+    #expect(rendered == "<textarea id=\"message\"></textarea>")
+    #expect(rendered.contains("</textarea>"))
+}
+
+@Test
+func rendersFooterElementWithAttributes() async throws {
+    let footer = Footer(.class("site-footer")) {
+        P { "© Damian Van de Kauter" }
+    }
+
+    #expect(footer.render() == "<footer class=\"site-footer\"><p>© Damian Van de Kauter</p></footer>")
+}
+
+@Test
+func rendersNestedFormContent() async throws {
+    let form = Form(.class("contact-form"), Attribute("method", "post")) {
+        Input(Attribute("type", "text"))
+        Label(Attribute("for", "name")) { "Naam" }
+        TextArea(.id("message")) { "" }
+    }
+
+    #expect(
+        form.render() ==
+            "<form class=\"contact-form\" method=\"post\"><input type=\"text\"><label for=\"name\">Naam</label><textarea id=\"message\"></textarea></form>"
+    )
+}
+
+@Test
 func rendersHTMLDocumentWithDoctype() async throws {
     let document = HTMLDocument {
         HTML(.lang("en")) {
