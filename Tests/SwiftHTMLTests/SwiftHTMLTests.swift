@@ -159,10 +159,24 @@ func rendersEmptyContainerElement() async throws {
 }
 
 @Test
+func rendersEmptyTemplateElement() async throws {
+    let template = Template {}
+
+    #expect(template.render() == "<template></template>")
+}
+
+@Test
 func preservesAttributeInsertionOrder() async throws {
     let div = Div(.id("hero"), .class("featured"), .ariaLabel("Intro")) {}
     
     #expect(div.render() == "<div id=\"hero\" class=\"featured\" aria-label=\"Intro\"></div>")
+}
+
+@Test
+func rendersTemplateElementWithAttributes() async throws {
+    let template = Template(Attribute("data-swiftwebui-template", "product-card")) {}
+
+    #expect(template.render() == "<template data-swiftwebui-template=\"product-card\"></template>")
 }
 
 @Test
@@ -257,6 +271,20 @@ func rendersSemanticBodyElements() async throws {
     
     #expect(
         main.render() == "<main><section class=\"hero\"><article class=\"card\"><h2>Backend</h2><p>Server-side Swift.</p></article></section></main>"
+    )
+}
+
+@Test
+func rendersTemplateElementWithNestedContent() async throws {
+    let template = Template(Attribute("data-swiftwebui-template", "product-card")) {
+        Article {
+            Span { "..." }
+        }
+    }
+
+    #expect(
+        template.render() ==
+            "<template data-swiftwebui-template=\"product-card\"><article><span>...</span></article></template>"
     )
 }
 
