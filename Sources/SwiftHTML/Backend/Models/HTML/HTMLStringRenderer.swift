@@ -5,7 +5,7 @@
 //  Created by Damian Van de Kauter on 06/06/2026.
 //
 
-public struct HTMLStringRenderer {
+public struct HTMLStringRenderer: HTMLRendererProtocol {
 
     public let options: HTMLRenderOptions
 

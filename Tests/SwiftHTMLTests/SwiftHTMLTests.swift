@@ -1,6 +1,13 @@
 import Testing
 @testable import SwiftHTML
 
+private func render<R: HTMLRendererProtocol>(
+    _ node: any HTMLNode,
+    using renderer: R
+) -> R.Output {
+    renderer.render(node)
+}
+
 @Test
 func stringRendererRendersHTMLTree() async throws {
     let renderer = HTMLStringRenderer()
@@ -12,6 +19,70 @@ func stringRendererRendersHTMLTree() async throws {
     #expect(
         renderer.render(div) ==
             "<div id=\"hero\"><h1>SwiftHTML</h1><p>Renderer-owned output</p></div>"
+    )
+}
+
+@Test
+func stringRendererConformsToRendererProtocol() async throws {
+    let div = Div {
+        "Hello"
+    }
+
+    #expect(render(div, using: HTMLStringRenderer()) == "<div>Hello</div>")
+}
+
+@Test
+func treeDumpRendererRendersDocumentTree() async throws {
+    let document = HTMLDocument {
+        HTML(.lang("en")) {
+            Head {
+                Meta(.charset("UTF-8"))
+                RawText("<!-- raw -->")
+            }
+            Body {
+                H1(.id("title")) {
+                    "Hello"
+                }
+                Img(.src("hero.png"), .alt("Hero"))
+            }
+        }
+    }
+
+    let expected = """
+    HTMLDocument
+      html [lang="en"]
+        head
+          meta [charset="UTF-8"]
+          RawText("<!-- raw -->")
+        body
+          h1 [id="title"]
+            Text("Hello")
+          img [src="hero.png" alt="Hero"]
+    """
+
+    #expect(HTMLTreeDumpRenderer().render(document) == expected)
+}
+
+@Test
+func sameTreeRendersAsHTMLAndTreeDump() async throws {
+    let document = HTMLDocument {
+        HTML {
+            Body {
+                H1 { "Hello" }
+            }
+        }
+    }
+
+    #expect(HTMLStringRenderer().render(document) == "<!DOCTYPE html><html><body><h1>Hello</h1></body></html>")
+    #expect(
+        HTMLTreeDumpRenderer().render(document) ==
+            """
+            HTMLDocument
+              html
+                body
+                  h1
+                    Text("Hello")
+            """
     )
 }
 
