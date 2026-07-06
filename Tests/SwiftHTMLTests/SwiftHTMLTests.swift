@@ -2,6 +2,20 @@ import Testing
 @testable import SwiftHTML
 
 @Test
+func stringRendererRendersHTMLTree() async throws {
+    let renderer = HTMLStringRenderer()
+    let div = Div(.id("hero")) {
+        H1 { "SwiftHTML" }
+        P { "Renderer-owned output" }
+    }
+
+    #expect(
+        renderer.render(div) ==
+            "<div id=\"hero\"><h1>SwiftHTML</h1><p>Renderer-owned output</p></div>"
+    )
+}
+
+@Test
 func rendersTextEscaped() async throws {
     let textNode = TextNode("Hello <Swift> & \"HTML\"")
     

@@ -17,20 +17,4 @@ public extension HTMLElement {
     var attributes: [Attribute] {
         []
     }
-    
-    func renderOpeningTag(
-        using renderer: HTMLRenderer
-    ) {
-        renderer.write("<")
-        renderer.write(tag)
-        
-        for attribute in attributes {
-            renderer.write(" ")
-            renderer.write(attribute.key)
-            renderer.write("=")
-            renderer.writeDoubleQuoted(attribute.value)
-        }
-        
-        renderer.write(">")
-    }
 }

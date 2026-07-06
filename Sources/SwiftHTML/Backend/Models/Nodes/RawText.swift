@@ -12,8 +12,4 @@ public struct RawText: HTMLNode {
     public init(_ content: String) {
         self.content = content
     }
-
-    public func render(using renderer: HTMLRenderer) {
-        renderer.write(content)
-    }
 }

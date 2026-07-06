@@ -6,10 +6,3 @@
 //
 
 public protocol VoidElement: HTMLElement {}
-
-public extension VoidElement {
-    
-    func render(using renderer: HTMLRenderer) {
-        renderOpeningTag(using: renderer)
-    }
-}

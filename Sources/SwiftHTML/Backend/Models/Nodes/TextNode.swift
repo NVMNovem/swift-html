@@ -12,8 +12,4 @@ public struct TextNode: HTMLNode {
     public init(_ value: String) {
         self.value = value
     }
-    
-    public func render(using renderer: HTMLRenderer) {
-        renderer.writeEscaped(value)
-    }
 }
