@@ -14,13 +14,4 @@ public struct HTMLDocument: HTMLNode {
     ) {
         self.children = children()
     }
-
-    public func render(using renderer: HTMLRenderer) {
-        renderer.write("<!DOCTYPE html>")
-
-        for child in children {
-            renderer.writeLineBreak()
-            child.render(using: renderer)
-        }
-    }
 }
