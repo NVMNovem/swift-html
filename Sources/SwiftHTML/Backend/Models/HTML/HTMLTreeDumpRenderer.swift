@@ -46,7 +46,7 @@ public struct HTMLTreeDumpRenderer: HTMLRendererProtocol {
         case let element as any HTMLElement:
             "\(element.tag)\(attributesDescription(for: element.attributes))"
         default:
-            String(describing: type(of: node))
+            "UnknownNode"
         }
     }
 
@@ -63,11 +63,19 @@ public struct HTMLTreeDumpRenderer: HTMLRendererProtocol {
     }
 
     private func readable(_ string: String) -> String {
-        string
-            .replacingOccurrences(of: "\\", with: "\\\\")
-            .replacingOccurrences(of: "\n", with: "\\n")
-            .replacingOccurrences(of: "\t", with: "\\t")
-            .replacingOccurrences(of: "\"", with: "\\\"")
+        var output = ""
+
+        for character in string {
+            switch character {
+            case "\\": output += "\\\\"
+            case "\n": output += "\\n"
+            case "\t": output += "\\t"
+            case "\"": output += "\\\""
+            default: output.append(character)
+            }
+        }
+
+        return output
     }
 
     private func indentation(for level: Int) -> String {
