@@ -5,8 +5,6 @@
 //  Created by Damian Van de Kauter on 04/06/2026.
 //
 
-import Foundation
-
 public final class HTMLStringOutputStream: HTMLOutputStream {
     
     public private(set) var output: String
@@ -20,11 +18,15 @@ public final class HTMLStringOutputStream: HTMLOutputStream {
     }
     
     public func writeEscaped(_ string: String) {
-        output += string
-            .replacingOccurrences(of: "&", with: "&amp;")
-            .replacingOccurrences(of: "<", with: "&lt;")
-            .replacingOccurrences(of: ">", with: "&gt;")
-            .replacingOccurrences(of: "\"", with: "&quot;")
+        for character in string {
+            switch character {
+            case "&": output += "&amp;"
+            case "<": output += "&lt;"
+            case ">": output += "&gt;"
+            case "\"": output += "&quot;"
+            default: output.append(character)
+            }
+        }
     }
     
     public func writeDoubleQuoted(_ string: String) {
