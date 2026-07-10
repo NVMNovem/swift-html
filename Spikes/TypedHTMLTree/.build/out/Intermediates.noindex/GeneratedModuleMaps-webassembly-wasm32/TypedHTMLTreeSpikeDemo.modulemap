@@ -1,4 +1,0 @@
-module TypedHTMLTreeSpikeDemo {
-header "TypedHTMLTreeSpikeDemo-Swift.h"
-export *
-}

@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'TypedHTMLTreeSpikeDemo-product' in project 'TypedHTMLTreeSpike'
-➜ Explicit dependency on target 'TypedHTMLTreeSpike' in project 'TypedHTMLTreeSpike'
-Target 'TypedHTMLTreeSpike' in project 'TypedHTMLTreeSpike' (no dependencies)
