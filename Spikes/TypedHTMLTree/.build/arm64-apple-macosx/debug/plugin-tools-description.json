@@ -1,0 +1,439 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.TypedHTMLTreeSpike-wasm32-unknown-wasip1-debug.module" : {
+      "executable" : "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/sources",
+      "importPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpike/TypedHTMLTreeSpike.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/swift-version-2EBC34708C19E3C0.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TypedHTMLTreeSpike",
+      "moduleOutputPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules/TypedHTMLTreeSpike.swiftmodule",
+      "objects" : [
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "wasm32-unknown-wasip1",
+        "-whole-module-optimization",
+        "-num-threads",
+        "10",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/ModuleCache",
+        "-resource-dir",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/include/TypedHTMLTreeSpike-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+        "-static-stdlib",
+        "-enable-experimental-feature",
+        "Embedded",
+        "-wmo",
+        "-Xlinker",
+        "-lc++",
+        "-Xlinker",
+        "-lswift_Concurrency",
+        "-tools-directory",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/bin",
+        "-sdk",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+        "-g",
+        "-Xcc",
+        "--sysroot",
+        "-Xcc",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+        "-Xcc",
+        "-D__EMBEDDED_SWIFT__",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "typedhtmltree"
+      ],
+      "outputFileMapPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules/TypedHTMLTreeSpike.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpike/TypedHTMLTreeSpike.swift"
+      ],
+      "tempsPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.TypedHTMLTreeSpikeDemo-wasm32-unknown-wasip1-debug.module" : {
+      "executable" : "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/sources",
+      "importPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpikeDemo/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/swift-version-2EBC34708C19E3C0.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules/TypedHTMLTreeSpike.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "TypedHTMLTreeSpikeDemo",
+      "moduleOutputPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/TypedHTMLTreeSpikeDemo.swiftmodule",
+      "objects" : [
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "wasm32-unknown-wasip1",
+        "-whole-module-optimization",
+        "-num-threads",
+        "10",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/ModuleCache",
+        "-resource-dir",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+        "-static-stdlib",
+        "-enable-experimental-feature",
+        "Embedded",
+        "-wmo",
+        "-Xlinker",
+        "-lc++",
+        "-Xlinker",
+        "-lswift_Concurrency",
+        "-tools-directory",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/bin",
+        "-sdk",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+        "-g",
+        "-Xcc",
+        "--sysroot",
+        "-Xcc",
+        "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+        "-Xcc",
+        "-D__EMBEDDED_SWIFT__",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "typedhtmltree"
+      ],
+      "outputFileMapPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/TypedHTMLTreeSpikeDemo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpikeDemo/main.swift"
+      ],
+      "tempsPath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "TypedHTMLTreeSpike" : [
+      "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TypedHTMLTreeSpike",
+      "-package-name",
+      "typedhtmltree",
+      "-c",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpike/TypedHTMLTreeSpike.swift",
+      "-I",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules",
+      "-target",
+      "wasm32-unknown-wasip1",
+      "-whole-module-optimization",
+      "-num-threads",
+      "10",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/ModuleCache",
+      "-resource-dir",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/include/TypedHTMLTreeSpike-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+      "-static-stdlib",
+      "-enable-experimental-feature",
+      "Embedded",
+      "-wmo",
+      "-Xlinker",
+      "-lc++",
+      "-Xlinker",
+      "-lswift_Concurrency",
+      "-tools-directory",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/bin",
+      "-sdk",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+      "-g",
+      "-Xcc",
+      "--sysroot",
+      "-Xcc",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+      "-Xcc",
+      "-D__EMBEDDED_SWIFT__",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "typedhtmltree",
+      "-driver-use-frontend-path",
+      "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc"
+    ],
+    "TypedHTMLTreeSpikeDemo" : [
+      "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TypedHTMLTreeSpikeDemo",
+      "-package-name",
+      "typedhtmltree",
+      "-c",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpikeDemo/main.swift",
+      "-I",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/Modules",
+      "-target",
+      "wasm32-unknown-wasip1",
+      "-whole-module-optimization",
+      "-num-threads",
+      "10",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/ModuleCache",
+      "-resource-dir",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/lib/swift",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+      "-static-stdlib",
+      "-enable-experimental-feature",
+      "Embedded",
+      "-wmo",
+      "-Xlinker",
+      "-lc++",
+      "-Xlinker",
+      "-lswift_Concurrency",
+      "-tools-directory",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/swift.xctoolchain/usr/bin",
+      "-sdk",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+      "-g",
+      "-Xcc",
+      "--sysroot",
+      "-Xcc",
+      "/Users/vdkdamian/Library/org.swift.swiftpm/swift-sdks/swift-6.3.3-RELEASE_wasm.artifactbundle/swift-6.3.3-RELEASE_wasm/wasm32-unknown-wasip1/WASI.sdk",
+      "-Xcc",
+      "-D__EMBEDDED_SWIFT__",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "typedhtmltree",
+      "-driver-use-frontend-path",
+      "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "TypedHTMLTreeSpike" : [
+
+    ],
+    "TypedHTMLTreeSpikeDemo" : [
+      "TypedHTMLTreeSpike"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpike/TypedHTMLTreeSpike.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/sources"
+    },
+    "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpikeDemo/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/sources"
+    },
+    "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/TypedHTMLTreeSpikeDemo.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpikeDemo.product/Objects.LinkFileList"
+    },
+    "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/swift-version-2EBC34708C19E3C0.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/vdkdamian/Library/Developer/Toolchains/swift-6.3.3-RELEASE.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/swift-version-2EBC34708C19E3C0.txt"
+    }
+  }
+}

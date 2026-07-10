@@ -9,5 +9,5 @@ public protocol HTMLRendererProtocol {
 
     associatedtype Output
 
-    func render(_ node: any HTMLNode) -> Output
+    func render(_ node: HTMLNode) -> Output
 }

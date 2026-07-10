@@ -1,8 +1,7 @@
-//
-//  VoidElement.swift
-//  swift-html
-//
-//  Created by Damian Van de Kauter on 04/06/2026.
-//
-
 public protocol VoidElement: HTMLElement {}
+
+public extension VoidElement {
+    var htmlNode: HTMLNode {
+        .element(HTMLElementNode(tag: tag, attributes: attributes, children: [], isVoid: true))
+    }
+}

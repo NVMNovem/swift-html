@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary.swiftconstvalues",
+    "dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary.d",
+    "diagnostics" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary.dia",
+    "emit-module-dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary-emit-module.dia",
+    "pch" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/TypedHTMLTreeSpikeDemo-primary.swiftdeps"
+  },
+  "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpikeDemo/main.swift" : {
+    "index-unit-output-path" : "/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/main.o",
+    "llvm-bc" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/main.bc",
+    "object" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug-webassembly-wasm32/TypedHTMLTreeSpikeDemo-p.build/Objects-normal/wasm32/main.o"
+  }
+}

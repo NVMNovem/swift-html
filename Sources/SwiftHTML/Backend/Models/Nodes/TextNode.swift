@@ -1,15 +1,7 @@
-//
-//  TextNode.swift
-//  swift-html
-//
-//  Created by Damian Van de Kauter on 04/06/2026.
-//
+public struct TextNode: HTMLNodeConvertible, Sendable {
+    public let htmlNode: HTMLNode
 
-public struct TextNode: HTMLNode {
-    
-    public let value: String
-    
     public init(_ value: String) {
-        self.value = value
+        self.htmlNode = .text(value)
     }
 }

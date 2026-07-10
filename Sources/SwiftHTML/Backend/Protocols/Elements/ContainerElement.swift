@@ -1,26 +1,14 @@
-//
-//  ContainerElement.swift
-//  swift-html
-//
-//  Created by Damian Van de Kauter on 04/06/2026.
-//
-
 public protocol ContainerElement: HTMLElement {
-    
-    var children: [any HTMLNode] { get }
-    
-    init(
-        _ attributes: [Attribute],
-        @HTMLBuilder children: () -> [any HTMLNode]
-    )
+    var children: [HTMLNode] { get }
+    init(_ attributes: [Attribute], @HTMLBuilder children: () -> [HTMLNode])
 }
 
 public extension ContainerElement {
-    
-    init(
-        _ attributes: Attribute...,
-        @HTMLBuilder children: () -> [any HTMLNode]
-    ) {
+    init(_ attributes: Attribute..., @HTMLBuilder children: () -> [HTMLNode]) {
         self.init(attributes, children: children)
+    }
+
+    var htmlNode: HTMLNode {
+        .element(HTMLElementNode(tag: tag, attributes: attributes, children: children, isVoid: false))
     }
 }

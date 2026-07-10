@@ -5,15 +5,15 @@
 //  Created by Damian Van de Kauter on 01/07/2026.
 //
 
-public struct Footer: ContainerElement {
+public struct Footer: ContainerElement, Sendable {
 
     public let tag = "footer"
     public let attributes: [Attribute]
-    public let children: [any HTMLNode]
+    public let children: [HTMLNode]
 
     public init(
         _ attributes: [Attribute],
-        @HTMLBuilder children: () -> [any HTMLNode]
+        @HTMLBuilder children: () -> [HTMLNode]
     ) {
         self.attributes = attributes
         self.children = children()
