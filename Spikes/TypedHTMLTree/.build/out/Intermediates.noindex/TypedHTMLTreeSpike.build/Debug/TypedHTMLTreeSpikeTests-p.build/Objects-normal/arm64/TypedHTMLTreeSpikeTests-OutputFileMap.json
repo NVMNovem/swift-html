@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests-primary.dia",
+    "emit-module-dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests-primary-emit-module.dia",
+    "pch" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests-primary.swiftdeps"
+  },
+  "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  },
+  "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Tests/TypedHTMLTreeSpikeTests/TypedHTMLTreeSpikeTests.swift" : {
+    "const-values" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.swiftconstvalues",
+    "dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.d",
+    "diagnostics" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.dia",
+    "index-unit-output-path" : "/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.o",
+    "llvm-bc" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.bc",
+    "object" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.o",
+    "swift-dependencies" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests.swiftdeps",
+    "swiftmodule" : "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/out/Intermediates.noindex/TypedHTMLTreeSpike.build/Debug/TypedHTMLTreeSpikeTests-p.build/Objects-normal/arm64/TypedHTMLTreeSpikeTests~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.d",
+    "object": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.o",
+    "swift-dependencies": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/primary.swiftdeps"
+  },
+  "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/Sources/TypedHTMLTreeSpike/TypedHTMLTreeSpike.swift": {
+    "object": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.swift.o",
+    "swiftmodule": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike~partial.swiftmodule",
+    "swift-dependencies": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.swiftdeps",
+    "diagnostics": "/Users/vdkdamian/Documents/Novem/Projecten/SwiftHTML/swift-html/Spikes/TypedHTMLTree/.build/wasm32-unknown-wasip1/debug/TypedHTMLTreeSpike.build/TypedHTMLTreeSpike.dia"
+  }
+}

@@ -2,7 +2,7 @@ import Testing
 @testable import SwiftHTML
 
 private func render<R: HTMLRendererProtocol>(
-    _ node: any HTMLNode,
+    _ node: HTMLNode,
     using renderer: R
 ) -> R.Output {
     renderer.render(node)
@@ -28,7 +28,28 @@ func stringRendererConformsToRendererProtocol() async throws {
         "Hello"
     }
 
-    #expect(render(div, using: HTMLStringRenderer()) == "<div>Hello</div>")
+    #expect(render(div.htmlNode, using: HTMLStringRenderer()) == "<div>Hello</div>")
+}
+
+@Test
+func concreteASTSupportsBothRenderersAndBuilderControlFlow() async throws {
+    let showSubtitle = true
+    let items = ["One", "Two"]
+    let div = Div {
+        if showSubtitle { H1 { "Title" } }
+        for item in items { P { item } }
+    }
+    let node: HTMLNode = div.htmlNode
+
+    #expect(HTMLStringRenderer().render(node) == "<div><h1>Title</h1><p>One</p><p>Two</p></div>")
+    #expect(HTMLTreeDumpRenderer().render(node).contains("Text(\"Title\")"))
+}
+
+@Test
+func capitalizedDSLNamesAreConcreteTypes() async throws {
+    let heading: H1 = H1 { "Hello" }
+    let container: Div = Div { heading }
+    #expect(container.render() == "<div><h1>Hello</h1></div>")
 }
 
 @Test

@@ -5,7 +5,7 @@
 //  Created by Damian Van de Kauter on 01/07/2026.
 //
 
-public struct Input: VoidElement {
+public struct Input: VoidElement, Sendable {
 
     public let tag = "input"
     public let attributes: [Attribute]

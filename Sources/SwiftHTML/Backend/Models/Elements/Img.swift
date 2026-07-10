@@ -5,7 +5,7 @@
 //  Created by Damian Van de Kauter on 20/06/2026.
 //
 
-public struct Img: VoidElement {
+public struct Img: VoidElement, Sendable {
 
     public let tag = "img"
     public let attributes: [Attribute]

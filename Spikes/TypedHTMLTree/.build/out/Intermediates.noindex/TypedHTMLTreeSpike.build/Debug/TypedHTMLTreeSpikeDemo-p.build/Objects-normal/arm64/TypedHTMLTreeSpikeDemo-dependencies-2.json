@@ -1,0 +1,41 @@
+[
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-3QYEMMCRR2QT0.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "SwiftOnoneSupport",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftOnoneSupport-6EW9V8SK1VB5.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "TypedHTMLTreeSpike",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/Products\/Debug\/TypedHTMLTreeSpike.swiftmodule\/arm64-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-1X8P4VTUPNPMC.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-19BO2NC1O9MAN.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-6RON2E2HUX19F3D7ICRJUYIDM.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-9KP4YW8UDH6TE78WSOUD43QPL.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  }
+]

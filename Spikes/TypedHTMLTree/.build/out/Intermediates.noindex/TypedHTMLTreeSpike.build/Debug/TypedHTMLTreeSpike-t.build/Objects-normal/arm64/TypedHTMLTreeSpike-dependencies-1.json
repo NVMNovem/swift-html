@@ -1,0 +1,36 @@
+[
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-PL5GB6PYWIQJ.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "SwiftOnoneSupport",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftOnoneSupport-CN61K2MW4VLJ.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-3AFV0MENF7J05.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-2W76YVIT28B32.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-2IJ288S6R01YFC6DK6BJXHIAE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-4PYO8C00VDRKW731JVJTCVXCP.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  }
+]

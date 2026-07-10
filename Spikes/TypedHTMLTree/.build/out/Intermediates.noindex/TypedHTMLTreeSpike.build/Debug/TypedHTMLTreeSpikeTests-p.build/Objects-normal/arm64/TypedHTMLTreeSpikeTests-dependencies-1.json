@@ -1,0 +1,188 @@
+[
+  {
+    "isFramework" : false,
+    "moduleName" : "Darwin",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-15Z5Y3H4CTR6J.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-3JI2E0PDZ6DDO.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-3QYEMMCRR2QT0.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "SwiftOnoneSupport",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftOnoneSupport-6EW9V8SK1VB5.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Testing",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/Intermediates.noindex\/SwiftExplicitPrecompiledModules\/Testing-20YC4OVFJJYWE.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "TypedHTMLTreeSpike",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/Products\/Debug\/TypedHTMLTreeSpike.swiftmodule\/arm64-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-2QF21C5TMU6RN.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-1X8P4VTUPNPMC.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-17UJURCSHNC6B.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-OIYZO5W96GMC.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-8FAU095RZBT0.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-19BO2NC1O9MAN.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Darwin.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-2ASEEDOK4073O0ANNSK3EEWIN.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Darwin"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinBasic.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-DDXZVL00P4PLG42NUILHF9Q9B.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "MachO"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/ObjectiveC.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-EQ46KUCYHQXJA7GAXV16ORXS0.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-6RON2E2HUX19F3D7ICRJUYIDM.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-CFYEELTLX3Q1VZJ4QSHHQX0D9.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_AvailabilityInternal"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-12JPL6QVXYQ5JEW4O45CQHD0V.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-AJFL3GPMRHMSLE6FDTG7W5RID.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_inttypes"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-2ISOHCHR3P4SXLWQLYUC660QO.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_limits"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-525X6AMW7HTPA0XKMKC5XUQRQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdarg"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-CZDM3YLNC1Z9F7K4LQUJT2XT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdbool"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-4LTR6GD3FBSFLFA507EY6G28W.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stddef"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-75E54FGDU1RBOXOKKNQF3WQA2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdint"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-ACWGK74PTQSQQFU1FELIZ59WP.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-2NHRFGP69O57GO4RZMOGE9YEQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation3.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-23WFKH8UMF1DPUQ6KU6VNC0T7.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-9KP4YW8UDH6TE78WSOUD43QPL.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-3MUG7FIY36H3VNP5QBQNLG508.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrcheck"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/vdkdamian\/Documents\/Novem\/Projecten\/SwiftHTML\/swift-html\/Spikes\/TypedHTMLTree\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-87T4YX1J2ZWEW648LS7IA2JMD.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "sys_types"
+  }
+]
